@@ -1,0 +1,6 @@
+@startuml
+object object1
+object object2
+
+object1 --> object2
+@enduml
