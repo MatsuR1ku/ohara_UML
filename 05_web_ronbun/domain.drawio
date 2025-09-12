@@ -1,0 +1,59 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.1">
+  <diagram name="ページ1" id="NHfVlnt1ZG7DkQLvRAtB">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jpu--1q9srPtxffRINg_-1" value="名前" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-2" value="Robo dog" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="200" y="160" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-3" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpu--1q9srPtxffRINg_-1" target="jpu--1q9srPtxffRINg_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint" />
+            <mxPoint x="320" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-4" value="時刻" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="jpu--1q9srPtxffRINg_-4" target="jpu--1q9srPtxffRINg_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="370" y="480" as="sourcePoint" />
+            <mxPoint x="410" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-6" value="足算結果" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="430" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-7" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="jpu--1q9srPtxffRINg_-6" target="jpu--1q9srPtxffRINg_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="140" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-8" value="挨拶" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-9" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;" edge="1" parent="1" source="jpu--1q9srPtxffRINg_-8" target="jpu--1q9srPtxffRINg_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="460" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-10" value="2つの整数" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="570" y="310" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jpu--1q9srPtxffRINg_-11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jpu--1q9srPtxffRINg_-10" target="jpu--1q9srPtxffRINg_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="750" y="460" as="sourcePoint" />
+            <mxPoint x="790" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
