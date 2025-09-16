@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.2">
+  <diagram name="ページ1" id="e0ojlItY8CDQBLqKBAIk">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-1" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="170" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-2" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-16" target="nJfzYaJYYfLmd0Sg78i3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="320" as="sourcePoint" />
+            <mxPoint x="180" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-3" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-1" target="nJfzYaJYYfLmd0Sg78i3-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="390" as="sourcePoint" />
+            <mxPoint x="160" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-17" target="nJfzYaJYYfLmd0Sg78i3-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="410" as="sourcePoint" />
+            <mxPoint x="320" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-13" target="nJfzYaJYYfLmd0Sg78i3-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="360" as="sourcePoint" />
+            <mxPoint x="240" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-23" target="nJfzYaJYYfLmd0Sg78i3-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="400" as="sourcePoint" />
+            <mxPoint x="340" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-14" target="nJfzYaJYYfLmd0Sg78i3-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="370" as="sourcePoint" />
+            <mxPoint x="500" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-18" target="nJfzYaJYYfLmd0Sg78i3-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="470" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-1" target="nJfzYaJYYfLmd0Sg78i3-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="310" as="sourcePoint" />
+            <mxPoint x="430" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-13" value="RoboDogシステムメニュー" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="90" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-14" value="現在時刻入力画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-16" value="時刻入力画面表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="90" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-17" value="現在の時刻を入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="200" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-18" value="挨拶を表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="310" width="80" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-19" value="挨拶表示画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="315" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-25" target="nJfzYaJYYfLmd0Sg78i3-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="696.9230769230769" y="230" as="sourcePoint" />
+            <mxPoint x="310" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="nJfzYaJYYfLmd0Sg78i3-16" target="nJfzYaJYYfLmd0Sg78i3-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="370" as="sourcePoint" />
+            <mxPoint x="670" y="173.78378378378375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-23" value="時刻に応じた挨拶を取得" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="280" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nJfzYaJYYfLmd0Sg78i3-25" value="RoboDog" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="80" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

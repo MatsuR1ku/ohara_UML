@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="Tgd-9FhoPVRX0yvfr6wi">
+        <mxGraphModel dx="958" dy="418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-2" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="140" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-2" target="bu-iMASWQ3DRvTRdz542-9" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="390" as="sourcePoint"/>
+                        <mxPoint x="280" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-6" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-12" target="bu-iMASWQ3DRvTRdz542-14" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="190" y="350" as="sourcePoint"/>
+                        <mxPoint x="240" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-7" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-9" target="bu-iMASWQ3DRvTRdz542-10" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="330" as="sourcePoint"/>
+                        <mxPoint x="320" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-9" value="RoboDogシステムメニュー" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="130" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-10" value="足算画面表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="130" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-2" target="bu-iMASWQ3DRvTRdz542-12" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="330" as="sourcePoint"/>
+                        <mxPoint x="250" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-12" value="整数入力画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="280" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-10" target="bu-iMASWQ3DRvTRdz542-12" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="230" y="360" as="sourcePoint"/>
+                        <mxPoint x="280" y="310" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-14" value="2つの整数を入力" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="280" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-20" target="bu-iMASWQ3DRvTRdz542-21" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="481" as="sourcePoint"/>
+                        <mxPoint x="220" y="431" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-14" target="bu-iMASWQ3DRvTRdz542-19" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="280" y="460" as="sourcePoint"/>
+                        <mxPoint x="330" y="410" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-19" target="bu-iMASWQ3DRvTRdz542-20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="170" y="468" as="sourcePoint"/>
+                        <mxPoint x="220" y="418" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-19" value="2つの整数を足す" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="280" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-20" value="結果の表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="430" y="400" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-21" value="足算の結果表示画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="400" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-22" value="RoboDog" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="210" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-23" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-19" target="bu-iMASWQ3DRvTRdz542-22" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="390" y="300" as="sourcePoint"/>
+                        <mxPoint x="550" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="bu-iMASWQ3DRvTRdz542-26" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" parent="1" source="bu-iMASWQ3DRvTRdz542-10" target="bu-iMASWQ3DRvTRdz542-22" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="390" y="300" as="sourcePoint"/>
+                        <mxPoint x="550" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

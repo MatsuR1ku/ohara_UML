@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="qouejV2Z3el8jE0GB6A2">
+        <mxGraphModel dx="767" dy="335" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="T31rOZmzirh8VbfF72pl-1" value="ユーザー" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="160" width="30" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-2" value="システムメニュー" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="150" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-4" value="名前の変更画面表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="150" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-7" value="名前の変更画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="290" y="270" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-11" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-4" target="T31rOZmzirh8VbfF72pl-7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="260" as="sourcePoint"/>
+                        <mxPoint x="430" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-12" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-1" target="T31rOZmzirh8VbfF72pl-2" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="260" as="sourcePoint"/>
+                        <mxPoint x="430" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-2" target="T31rOZmzirh8VbfF72pl-4" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="380" y="260" as="sourcePoint"/>
+                        <mxPoint x="430" y="210" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-1" target="T31rOZmzirh8VbfF72pl-7" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="90" y="350" as="sourcePoint"/>
+                        <mxPoint x="140" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-7" target="T31rOZmzirh8VbfF72pl-19" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="380" as="sourcePoint"/>
+                        <mxPoint x="150" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-19" value="名前の変更" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="520" y="270" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-20" value="結果の表示" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="380" width="70" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-22" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-19" target="T31rOZmzirh8VbfF72pl-26" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="380" as="sourcePoint"/>
+                        <mxPoint x="180" y="330" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-23" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-20" target="T31rOZmzirh8VbfF72pl-25" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="130" y="490" as="sourcePoint"/>
+                        <mxPoint x="180" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-24" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="T31rOZmzirh8VbfF72pl-19" target="T31rOZmzirh8VbfF72pl-20" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="100" y="470" as="sourcePoint"/>
+                        <mxPoint x="150" y="420" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-25" value="変更後の名前表示" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="380" width="100" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="T31rOZmzirh8VbfF72pl-26" value="RoboDog" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="660" y="270" width="80" height="80" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

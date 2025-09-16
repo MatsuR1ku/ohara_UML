@@ -1,0 +1,21 @@
+@startuml robodogクラス図
+
+class RoboDog{
+ 名前:String
+ 時刻:int
+ 朝の挨拶:String
+ 昼の挨拶:String
+ 夜の挨拶:String
+ 整数1:int
+ 整数2:int
+ 整数の和:int
+
+ +現在の名前の取得():String
+ +名前を変更する():String
+ +現在の時刻を入力():int
+ +時刻に応じた挨拶を取得():String
+ +時刻によって挨拶を変える():String
+ +整数1と整数2を足算する():int
+ +足し算の結果を取得():int
+ }
+@enduml

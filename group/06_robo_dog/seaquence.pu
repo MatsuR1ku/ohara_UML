@@ -1,0 +1,24 @@
+@startuml robodogseaquence
+hide footbox
+
+actor ユーザー as user 
+boundary RobDogシステムメニュー as system
+control 名前の変更画面表示 as disp_cha_name
+boundary 名前の変更画面 as change_name
+entity RobDog as robo
+
+activate user
+user -> system:名前の変更をクリック()
+
+activate system
+
+system -> disp_cha_name:起動()
+
+activate disp_cha_name
+disp_cha_name -> robo:名前の取得()
+
+activate robo
+disp_cha_name <-- robo
+disp_cha_name ->change_name:表示()
+activate change_name
+@enduml
