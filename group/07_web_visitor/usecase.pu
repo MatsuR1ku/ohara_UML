@@ -1,0 +1,18 @@
+@startuml
+left to right direction
+actor "ユーザー" as fc
+rectangle  {
+  usecase "01 ログインする" as UC1
+  usecase "02 ユーザーを新規登録する" as UC2
+  usecase "03 訪問者情報を表示する" as UC3
+  usecase "04 自分の訪問者情報を変更する" as UC4
+  usecase "05 ログアウトする" as UC5
+}
+fc --> UC1
+fc --> UC2
+fc --> UC3
+fc --> UC4
+fc --> UC5
+@enduml
+ 
+ 

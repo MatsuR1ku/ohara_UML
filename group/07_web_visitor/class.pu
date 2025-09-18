@@ -1,0 +1,22 @@
+@startuml
+
+class 訪問者{
+    -ユーザーID:String
+    -パスワード:String
+    -名前:String
+    -学校名:String
+    -所属名:String
+    -メールアドレス:String
+    -電話番号:int
+    -年齢:int
+
+    +会員の登録(ユーザーID:String,パスワード:String,名前:String,学校名:String,所属名:String,メールアドレス:String,電話番号:int,年齢:int): void
+    +ログインする(ユーザーID:String,パスワード:String):void
+    +ログアウトする():void
+    +自分の情報参照():web_visitor
+    +他人の参照():web_visitor
+    +情報の変更():web_visitor
+    +情報の削除():void
+
+}
+@enduml

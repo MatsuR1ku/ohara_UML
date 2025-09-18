@@ -1,0 +1,28 @@
+@startuml
+
+hide footbox
+
+actor ユーザー as user
+boundary 訪問者システムメニュー as menu
+control 訪問者一覧表示 as disp_info
+entity 訪問者 as visitor
+boundary 訪問者一覧画面 as gamen
+
+
+activate user
+user -> menu:訪問者一覧をクリック()
+
+activate menu
+
+menu -> disp_info:起動()
+activate disp_info
+
+disp_info --> visitor
+activate visitor
+
+visitor --> disp_info
+deactivate visitor
+
+disp_info -> gamen:表示()
+activate gamen 
+@enduml
