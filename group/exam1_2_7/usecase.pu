@@ -1,0 +1,24 @@
+@startuml
+
+left to right direction
+
+actor 利用者 as user
+actor 事務職員 as clerk
+
+rectangle 図書館システム {
+    usecase "貸出処理" as UC1
+    usecase "返却処理" as UC2
+    usecase "図書を予約する" as UC3
+    usecase "予約済み図書の取り置きと連絡" as UC4
+    usecase "貸出履歴を閲覧する" as UC5
+}
+
+user -- UC1 
+user -- UC2 
+user -- UC3
+
+clerk -- UC1
+clerk -- UC2
+clerk -- UC4
+clerk -- UC5
+@enduml

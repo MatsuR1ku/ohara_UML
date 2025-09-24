@@ -17,7 +17,7 @@ activate menu
 menu -> disp_info:起動()
 activate disp_info
 
-disp_info --> visitor
+disp_info -> visitor
 activate visitor
 
 visitor --> disp_info

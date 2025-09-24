@@ -1,0 +1,28 @@
+@startuml
+hide footbox
+actor ユーザー as user
+boundary 新規登録画面 as sub
+control ユーザー情報登録 as sub_user
+entity 訪問者 as visitor
+boundary 登録画面 as disp_sub
+boundary 新規登録withエラー as error_sub
+
+user -> sub :ユーザー情報入力()
+activate sub 
+
+sub -> sub_user::起動()
+activate sub_user
+
+sub_user -> visitor:新規登録()
+activate visitor
+visitor --> sub_user
+deactivate visitor
+
+sub_user -> disp_sub:表示()
+activate disp_sub
+deactivate disp_sub
+sub_user -> error_sub:エラー発生時表示()
+activate error_sub
+
+
+@enduml
